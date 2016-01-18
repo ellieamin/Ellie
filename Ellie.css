@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+	@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#main{
+	background-color:#FFF;
+		
+	
+	
+}
+#cv{
+	-webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-width: 320px;
+   padding: 20px;
+   width: 100%;
+	background-color:#FFFFFF;
+	width:60%;
+	margin:auto;
+	padding:0;
+	
+	}
+
+#rcorners1 {
+	border-radius: 150px;
+	width: 150px;
+	height:150px;
+	float:left;
+	background-image:url(img/Elham.jpg);
+	
+	
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right:2%;	
+}
+
+#rcorners1:hover{
+	background-image:url(img/off.jpg);
+	
+	
+	}
+
+
+
+
+#name{
+	height:auto;
+	float:left;
+	
+
+	
+	}
+	#info{
+		float:right;
+		margin-top:2%;
+		width:auto;
+		
+		}
+		
+
+		
+#header{
+	
+	
+	
+	}		
+
+
+
+
+
+#bg{
+	background-color:#F0E9D9;
+	
+	
+	}	
+	
+
+	
+#section1{
+
+	background:#F0E9D9;
+	
+	padding-top:0;
+	
+	padding:20px;
+	}		
+
+#titles{
+	font-size:18px;
+	color:#0c0f48;
+	font-weight:bold;
+	
+}
+#brk{
+	background-color:#FFF;
+	
+	
+	
+	
+	}
+	
+	#pad{
+		padding:15px;
+		
+		}
+
+		
+		
+@media all and (max-width:650px ) 	{
+	
+	#rcorners1{
+		
+		display:none;
+		
+		}
+		
+#name{
+	float:none;
+	margin-left:35PX;
+	
+	}	
+	
+#info{
+	
+	float:none;
+    margin-left:40px;
+	font-size:11px;
+	
+	
+	
+	}	
+	
+#pad{
+	padding:5px;
+	
+	}	
+
+#cv{
+	width:90%;
+	
+	}				
+	
+	
+#section1{
+	padding:10px;
+	
+	
+	}	
+	}	
+	@media all and (max-width:450px )	{
+	
+	#rcorners1{
+		
+		display:none;
+		
+		}
+		
+#name{
+	float:none;
+	margin-left:35PX;
+	
+	}	
+	
+#info{
+	
+	float:none;
+    margin-left:40px;
+	font-size:11px;
+	
+	
+	
+	}	
+	
+#pad{
+	padding:5px;
+	
+	}	
+
+#cv{
+	width:100%;
+
+	
+	
+	}				
+	
+	
+#section1{
+	padding:10px;
+	
+	
+	}	
+	}	
+	
+	
+
+	
+		
+		
+	
+	
+
+	
+		
+	
+	
+	
